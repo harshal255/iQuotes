@@ -10,6 +10,8 @@
     <link rel="icon" type="image/x-icon"
         href="https://images.unsplash.com/photo-1496989981497-27d69cdad83e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=931&q=80">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body class="mt-5 bg-black text-light">
@@ -60,37 +62,38 @@
         </div>
     </nav>
 
-    <div class="container d-flex justify-content-center text-align-center flex-column">
-        <h1 class="my-sm-5 my-sm-5- text-glow text-muted">Contact Us</h1> 
+    <div class="container d-flex justify-content-center text-align-center flex-column"data-aos="fade-up">
+        <h1 class="my-sm-5 my-sm-5- text-glow text-muted">Contact Us</h1>
         <form>
-            <h5 class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, reiciendis.</h5>
+            <h5 class="text-muted">Let's start a conversion</h5>
             <div class="row g-3 my-4">
                 <div class="col">
-                  <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name" required>
                 </div>
                 <div class="col">
-                  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" required>
                 </div>
-              </div>
+            </div>
             <div class="row mb-3">
                 <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
                 <div class="col-sm-10">
-                    <input type="email" class="form-control" id="inputEmail3">
+                    <input type="email" class="form-control" id="inputEmail3" required>
                 </div>
             </div>
-           
-           
+
+
             <select class="form-select form-select-sm" aria-label=".form-select-sm example">
                 <option selected>Select Your Quotes type</option>
                 <option value="1">Inspiration</option>
                 <option value="2">Positive</option>
                 <option value="3">Success</option>
                 <option value="4">Attitude</option>
-              </select>
-              <div class="my-3">
+            </select>
+            <div class="my-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter Your Quotes here"></textarea>
-              </div>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    placeholder="Enter Your Quotes here" required></textarea>
+            </div>
             <button type="submit" class="btn btn-outline-light">Submit</button>
         </form>
     </div>
@@ -109,21 +112,19 @@
         </footer>
     </div>
 
-    <div class="container text-light">
+    <div class="container text-light"data-aos="fade-up">
         <div class="feature col text-center">
             <div class="feature-icon ">
                 <i class="bi bi-chat-square-quote-fill"></i>
 
 
             </div>
-            <h2 class=" my-3 pb-3">Featured title</h2>
-            <p class=" my-5">Paragraph of text beneath the heading to explain the heading. We'll add onto it
-                with another sentence and
-                probably just keep going until we run out of words.</p>
+            <h2 class=" my-3 pb-3">Share Quotes</h2>
+            <p class=" my-5">If You have idea about any amazing or unique Quotes or Quotes Post, Mail me your Quotes</p>
 
 
-            <a href="#" class="btn btn-outline-light">
-                Call to action
+            <a href="mailto:harshalskahar389@gmail.com" class="btn btn-outline-light">
+                Mail Me
 
             </a>
 
@@ -143,10 +144,15 @@
             </div>
 
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3"><a class="text-light" href="#"><i class="bi bi-github"></i></a></li>
-                <li class="ms-3"><a class="text-light" href="#"><i class="bi bi-linkedin"></i></a></li>
-                <li class="ms-3"><a class="text-light" href="#"><i class="bi bi-instagram"></i></a></li>
-                <li class="ms-3"><a class="text-light" href="#"><i class="bi bi-twitter"></i></a></li>
+                <li class="ms-3"><a class="text-light" href="https://github.com/harshal255"><i
+                            class="bi bi-github"></i></a></li>
+                <li class="ms-3"><a class="text-light" href="https://www.linkedin.com/in/harshal-kahar-4115a321b"><i
+                            class="bi bi-linkedin"></i></a></li>
+                <li class="ms-3"><a class="text-light" href="https://www.instagram.com/harshal_kahar1230/"><i
+                            class="bi bi-instagram"></i></a></li>
+                <li class="ms-3"><a class="text-light"
+                        href="https://twitter.com/harshalkahar389?t=UV0_DJC8W1ctySL9snG2Ww&s=09"><i
+                            class="bi bi-twitter"></i></a></li>
             </ul>
         </footer>
     </div>
@@ -154,6 +160,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

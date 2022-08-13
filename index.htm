@@ -15,11 +15,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
 </head>
 
 <body class="bg-black">
-    
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
         <div class="container-fluid ">
             <a class="navbar-brand text-info" href="#">iQuotes</a>
@@ -78,7 +80,7 @@
 
 
     <!-- login -->
-    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true" >
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -93,7 +95,7 @@
                                 aria-describedby="basic-addon1">
                         </div>
 
-                       
+
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Password</label>
                             <input type="password" class="form-control" id="exampleInputPassword1">
@@ -167,7 +169,7 @@
 
 
 
-    <div class="container my-5 pt-3">
+    <div class="container my-5 pt-3" data-aos="slide-up">
         <div id="carouselExampleCaptions" class="carousel slide carousel-fade  " data-bs-ride="false">
             <div class="carousel-indicators ">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -184,10 +186,8 @@
                     <img src="q2.jpg" class="d-block w-100  " alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h1 class="placeholder-glow">Welcome to iQuotes</h1>
-                        <p class="">Some representative placeholder content for the first slide.
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat inventore ratione
-                            asperiores officia illum impedit pariatur harum, aut nobis quo neque, sit consequuntur
-                            cupiditate sequi facilis laboriosam? Corrupti, laboriosam necessitatibus?
+                        <p class="">“When to use iterative development? You should use iterative development only on
+                            projects that you want to succeed.”
                         </p>
                         <button class="btn btn-outline-light">Latest</button>
                         <button class="btn btn-outline-light">Following</button>
@@ -198,9 +198,8 @@
                     <img src="q1.jpg" class="d-block w-100 " alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h1 class="">The best coder blog</h1>
-                        <p class="">Some representative placeholder content for the second Lorem ipsum dolor
-                            sit amet consectetur, adipisicing elit. Adipisci reprehenderit, tempore soluta unde rerum at
-                            cum accusamus pariatur mollitia amet. slide.</p>
+                        <p class="">“Perfection is achieved not when there is nothing more to add, but rather when there
+                            is nothing more to take away.”</p>
                         <button class="btn btn-outline-light">Latest</button>
                         <button class="btn btn-outline-light">Following</button>
                         <button class="btn btn-outline-light">All</button>
@@ -210,10 +209,8 @@
                     <img src="q7.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h1 class="">Our wining Blog</h1>
-                        <p class="">Some representative placeholder content for Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Dolor, magni totam. Ab commodi, nulla sed repellendus
-                            consectetur corrupti provident quasi reiciendis molestiae illum! Ipsum neque accusamus
-                            doloribus magni, mollitia quasi laborum adipisci ratione quos doloremque. the third slide.
+                        <p class="">“Sometimes it pays to stay in bed on Monday, rather than spending the rest of the
+                            week debugging Monday’s code.”
                         </p>
                         <button class="btn btn-outline-light">Latest</button>
                         <button class="btn btn-outline-light">Following</button>
@@ -224,9 +221,8 @@
                     <img src="q16.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h1>Our very nice Blog</h1>
-                        <p>Some representative placeholder Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Rerum, architecto hic, inventore vitae, saepe minima eaque repellendus nesciunt nostrum
-                            tempora quia est tenetur eveniet numquam. content for the third slide.</p>
+                        <p>“Any fool can write code that a computer can understand. Good programmers write code that
+                            humans can understand.”</p>
                         <button class="btn btn-outline-light">Latest</button>
                         <button class="btn btn-outline-light">Following</button>
                         <button class="btn btn-outline-light">All</button>
@@ -247,7 +243,7 @@
 
         </div>
     </div>
-    <div class="container marketing  text-center d-sm-none my-5 py-2">
+    <div class="container marketing  text-center d-sm-none my-5 py-2"data-aos="zoom-in">
         <div class="">
             <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
                 role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -258,10 +254,11 @@
             <img src="logo.jpg" alt="logo" class="bd-placeholder-img rounded-circle" width="140" height="140">
 
             <h2 class="fw-normal text-light">iQuotes</h2>
-            <p class="text-light"> Some representative placeholder content for the three columns of text below the
-                carousel. This is the
-                first column.</p>
-            <p><a class="btn btn-outline-light" href="#">View details » <i class="bi bi-instagram"></i></a></p>
+            <p class="text-light">If you want to see my insta page than check out my insta account,Where I upload all
+                Quotes post & will continue to do
+            </p>
+            <p><a class="btn btn-outline-light" href="https://www.instagram.com/harshal_kahar1230/">IG Page » <i
+                        class="bi bi-instagram"></i></a></p>
         </div>
 
     </div>
@@ -271,14 +268,13 @@
             <div class="container ">
 
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                    <div class="col">
+                    <div class="col"data-aos="zoom-in">
                         <div class="card shadow-sm">
                             <img src="q.jpg" alt="q" class="bd-placeholder-img card-img-top">
 
 
                             <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">"Just be yourself and you'll be fine"</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -290,14 +286,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col"data-aos="zoom-in">
                         <div class="card shadow-sm">
 
                             <img src="q1.jpg" alt="q1" class="bd-placeholder-img card-img-top">
 
                             <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">"Nothing really worth having is easy to get. The hard-fought
+                                    battles, the goals won with sacrifice, are the ones that matter." </p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -308,15 +304,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col"data-aos="zoom-in">
                         <div class="card shadow-sm">
 
                             <img src="q2.jpg" alt="q" class="bd-placeholder-img card-img-top">
 
 
                             <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">"Good friends, good books, and a sleepy conscience: this is the
+                                    ideal life."</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -328,15 +324,16 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col"data-aos="zoom-in">
                         <div class="card shadow-sm">
 
                             <img src="q3.jpg" alt="q" class="bd-placeholder-img card-img-top">
 
 
                             <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">"Success is not how high you have climbed, but how you make a
+                                    positive difference to the world."
+                                </p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -347,14 +344,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col"data-aos="zoom-in">
                         <div class="card shadow-sm">
                             <img src="q4.jpg" alt="q" class="bd-placeholder-img card-img-top">
 
 
                             <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">"It does not do to dwell on dreams and forget to live."</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -365,14 +361,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col"data-aos="zoom-in">
                         <div class="card shadow-sm">
                             <img src="q5.jpg" alt="q" class="bd-placeholder-img card-img-top">
 
 
                             <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">"People are only what they think of themselves."</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -384,13 +379,12 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col"data-aos="zoom-in">
                         <div class="card shadow-sm">
                             <img src="q6.jpg" alt="q" class="bd-placeholder-img card-img-top">
 
                             <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">"Do what is right, not what is easy nor what is popular."</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -401,14 +395,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col"data-aos="zoom-in">
                         <div class="card shadow-sm">
                             <img src="q7.jpg" alt="q" class="bd-placeholder-img card-img-top">
 
 
                             <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">"There are only two ways to live your life. One is as though
+                                    nothing is a miracle. The other is as though everything is a miracle."</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -419,14 +413,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col"data-aos="zoom-in">
                         <div class="card shadow-sm">
                             <img src="q8.jpg" alt="q" class="bd-placeholder-img card-img-top">
 
 
                             <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">"Sometimes life knocks you on your ass... get up, get up, get up!!!
+                                    Happiness is not the absence of problems, it's the ability to deal with them."</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -441,9 +435,9 @@
             </div>
         </div>
     </div>
-    
 
-    <div class="container  text-center mt-4">
+
+    <div class="container  text-center mt-4"data-aos="zoom-in">
 
 
         <div class="container marketing  text-center sm-mt-4 d-none d-sm-block my-5 py-5">
@@ -458,10 +452,10 @@
                 <img src="logo.jpg" alt="logo" class="bd-placeholder-img rounded-circle" width="140" height="140">
 
                 <h2 class="fw-normal text-light ">iQuotes</h2>
-                <p class="text-light">Some representative placeholder content for the three columns of text below
-                    the
-                    carousel. This is the first column.</p>
-                <p><a class="btn btn-outline-light" href="#">View details » <br> <i class="bi bi-instagram"></i></a>
+                <p class="text-light">If you want to see my insta page than check out my insta account,Where I upload
+                    all Quotes post & will continue to do</p>
+                <p><a class="btn btn-outline-light" href="https://www.instagram.com/harshal_kahar1230/">IG Page » <br>
+                        <i class="bi bi-instagram"></i></a>
                 </p>
             </div>
 
@@ -479,10 +473,15 @@
                 </div>
 
                 <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                    <li class="ms-3"><a class="text-light" href="#"><i class="bi bi-github"></i></a></li>
-                    <li class="ms-3"><a class="text-light" href="#"><i class="bi bi-linkedin"></i></a></li>
-                    <li class="ms-3"><a class="text-light" href="#"><i class="bi bi-instagram"></i></a></li>
-                    <li class="ms-3"><a class="text-light" href="#"><i class="bi bi-twitter"></i></a></li>
+                    <li class="ms-3"><a class="text-light" href="https://github.com/harshal255"><i
+                                class="bi bi-github"></i></a></li>
+                    <li class="ms-3"><a class="text-light" href="https://www.linkedin.com/in/harshal-kahar-4115a321b"><i
+                                class="bi bi-linkedin"></i></a></li>
+                    <li class="ms-3"><a class="text-light" href="https://www.instagram.com/harshal_kahar1230/"><i
+                                class="bi bi-instagram"></i></a></li>
+                    <li class="ms-3"><a class="text-light"
+                            href="https://twitter.com/harshalkahar389?t=UV0_DJC8W1ctySL9snG2Ww&s=09"><i
+                                class="bi bi-twitter"></i></a></li>
                 </ul>
             </footer>
         </div>
@@ -494,14 +493,12 @@
         <hr class="featurette-divider ">
 
 
-        <div class="row featurette d-flex justify-content-center align-items-center ">
+        <div class="row featurette d-flex justify-content-center align-items-center  "data-aos="fade-right">
 
             <div class="col-md-7 ">
                 <h2 class="featurette-heading fw-normal ">First featurette heading. <span class="text-muted">It’ll
                         blow your mind.</span></h2>
-                <p class="lead text-light">Some great placeholder content for the first featurette here. Imagine some
-                    exciting
-                    prose here.</p>
+                <p class="lead text-light">"Good people give Happiness & Worst People tech Lessons...!"</p>
             </div>
             <div class="col-md-5">
 
@@ -516,15 +513,12 @@
 
         <hr class="featurette-divider">
 
-        <div class="row featurette d-flex justify-content-center align-items-center">
+        <div class="row featurette d-flex justify-content-center align-items-center "data-aos="fade-left">
             <div class="col-md-7 order-md-2">
                 <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-muted">See
                         for
                         yourself.</span></h2>
-                <p class="lead text-light">Another featurette? Of course. More placeholder content here to give you an
-                    idea of
-                    how
-                    this layout would work with some actual real-world content in place.</p>
+                <p class="lead text-light">"Getting Success as a result of hardwork is more sexy than a girl"</p>
             </div>
             <div class="col-md-5 order-md-1">
 
@@ -540,16 +534,12 @@
 
         <hr class="featurette-divider">
 
-        <div class="row featurette d-flex justify-content-center align-items-center">
+        <div class="row featurette d-flex justify-content-center align-items-center "data-aos="fade-right">
 
             <div class="col-md-7">
                 <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span
                         class="text-muted">Checkmate.</span></h2>
-                <p class="lead text-light">And yes, this is the last block of representative placeholder content. Again,
-                    not
-                    really
-                    intended to be actually read, simply here to give you a better view of what this would look like
-                    with some actual content. Your content.</p>
+                <p class="lead text-light">Make Your Weakness as Strenge </p>
             </div>
             <div class="col-md-5">
 
@@ -580,20 +570,18 @@
           2 days ago
         </div>
       </div> -->
-    <div class="container text-light">
+    <div class="container text-light"data-aos="fade-up">
         <div class="feature col text-center">
             <div class="feature-icon ">
                 <i class="bi bi-chat-square-quote-fill"></i>
 
 
             </div>
-            <h2 class=" my-3 pb-3">Featured title</h2>
-            <p class=" my-5">Paragraph of text beneath the heading to explain the heading. We'll add onto it
-                with another sentence and
-                probably just keep going until we run out of words.</p>
+            <h2 class=" my-3 pb-3">Share Quotes</h2>
+            <p class=" my-5">If You have idea about any amazing or unique Quotes or Quotes Post, Mail me your Quotes</p>
 
-            <a href="#" class="btn btn-outline-light">
-                Call to action
+            <a href="mailto:harshalskahar389@gmail.com" class="btn btn-outline-light">
+                Mail Me
 
             </a>
         </div>
@@ -611,10 +599,15 @@
             </div>
 
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3"><a class="text-light" href="#"><i class="bi bi-github"></i></a></li>
-                <li class="ms-3"><a class="text-light" href="#"><i class="bi bi-linkedin"></i></a></li>
-                <li class="ms-3"><a class="text-light" href="#"><i class="bi bi-instagram"></i></a></li>
-                <li class="ms-3"><a class="text-light" href="#"><i class="bi bi-twitter"></i></a></li>
+                <li class="ms-3"><a class="text-light" href="https://github.com/harshal255"><i
+                            class="bi bi-github"></i></a></li>
+                <li class="ms-3"><a class="text-light" href="https://www.linkedin.com/in/harshal-kahar-4115a321b"><i
+                            class="bi bi-linkedin"></i></a></li>
+                <li class="ms-3"><a class="text-light" href="https://www.instagram.com/harshal_kahar1230/"><i
+                            class="bi bi-instagram"></i></a></li>
+                <li class="ms-3"><a class="text-light"
+                        href="https://twitter.com/harshalkahar389?t=UV0_DJC8W1ctySL9snG2Ww&s=09"><i
+                            class="bi bi-twitter"></i></a></li>
             </ul>
         </footer>
     </div>
@@ -628,6 +621,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 
 </body>
