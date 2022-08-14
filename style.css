@@ -1,0 +1,18 @@
+.animation{
+  
+   transition: all 0.3s linear;
+  
+
+
+}
+.animation:hover{
+  
+   
+   /* transform: rotate(720deg); */
+   transform: scale(1.5);
+  
+  
+
+
+}
+
